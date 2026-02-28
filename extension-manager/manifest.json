@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "シンプル拡張機能マネージャー",
+  "version": "1.0",
+  "description": "拡張機能のオン・オフを素早く切り替えます。",
+  "permissions": ["management"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "マネージャーを開く"
+  }
+}
